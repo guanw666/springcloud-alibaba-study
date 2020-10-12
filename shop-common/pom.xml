@@ -9,18 +9,27 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shop-user</artifactId>
+    <artifactId>shop-common</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.gw.springcloud</groupId>
-            <artifactId>shop-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
+        </dependency>
+       <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
     </dependencies>
 
 

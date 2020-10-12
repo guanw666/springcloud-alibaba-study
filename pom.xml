@@ -45,6 +45,9 @@
 
     <modules>
         <module>shop-user</module>
+        <module>shop-common</module>
+        <module>shop-product</module>
+        <module>shop-order</module>
     </modules>
 
 
